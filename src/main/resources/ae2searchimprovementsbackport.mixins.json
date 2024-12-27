@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.radimous.ae2searchimprovementsbackport.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "ae2searchimprovementsbackport.refmap.json",
+  "mixins": [
+    "MixinRepoSearch"
+  ],
+  "client": [
+    "MixinMEStorageScreen"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
